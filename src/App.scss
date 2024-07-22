@@ -1,0 +1,174 @@
+.logo-sidebar {
+    text-align: center;
+
+    @media only screen and (max-width:991px) {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.container {
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+h2{
+    color: #212529;
+}
+
+.profile-text{
+    font-size: 16px;
+    color: #646464 ;
+    @media  only screen and (max-width:480px) {
+        font-size: 14px;
+    }
+}
+
+.profile-image{
+    text-align: center;
+}
+
+.text-ceneter-h2{
+    @media  only screen and (max-width:480px) {
+        padding: 20px 0 15px;
+        text-align: center;
+    }
+}
+
+.title-sign-in{
+    text-align: center;
+    padding-bottom: 10px;
+    color: #1677ff;
+}
+.user-main{
+    padding: 0 15px;
+}
+
+// ::-webkit-scrollbar {
+//     width: 5px !important;
+//     background-color: red;
+//     /* width of the entire scrollbar */
+// }
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-text-card{
+    margin: 0 0 15px;
+    font-size: 16px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.align-item-center{
+    display: flex;
+    align-items: center;
+}
+
+.margin-auto{
+    margin: 0 auto;
+}
+.align{
+    text-align: left;
+
+    @media only screen and (max-width:480px) {
+        text-align: right;
+    }
+}
+
+.role-main{
+    padding: 0 15px;
+}
+
+.role-button{
+    margin-top: 10px;
+    @media only screen and (max-width:480px) {
+        margin-top: 0;
+    }
+}
+
+.col {
+    padding: 0 15px;
+    @media only screen and (max-width:480px) {
+        padding: 0;
+    }
+}
+.margin-bottom{
+    margin-bottom: 60px;
+}
+
+.padding{
+    padding: 5px 20px 20px;
+}
+
+.hight-100 {
+    height: 100vh;
+    width: 100%;
+}
+
+.error-main{
+    position: relative;
+}
+.error-Message {
+    position: absolute;
+    top: 62px;
+    left: 15px;
+}
+
+.close {
+    padding: 15px;
+}
+
+.img-fluid {
+    width: 80px;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.title-color {
+    color: #405189;
+}
+
+.font-size-15 {
+    font-size: 14px;
+
+    @media only screen and (max-width:480px) {
+        font-size: 13px;
+    }
+}
+
+.font-family-poppins {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.error{
+    color: red;
+}
+
+.content {
+    padding: 20px;
+}
+
+.margin-0 {
+    margin: 0;
+}
+
+.footer-warapper {
+    text-align: center;
+}
+
+.avatar {
+    background-color: #405189;
+    vertical-align: middle;
+    cursor: pointer;
+}
